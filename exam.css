@@ -1,0 +1,87 @@
+/* BODY */
+body {
+    width: 95%;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2026/01/55016654116-5bdeaacd9f-o.jpg");
+    background-attachment: fixed;
+}
+
+/* NAV */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* ARTICLE */
+article {
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+/* ASIDE */
+aside {
+    width: 20%;
+    float: right;
+    position: fixed;
+    right: 20px;
+    top: 150px;
+}
+
+aside ul {
+    list-style: square;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+/* IMAGE */
+.float-img {
+    float: right;
+    margin: 10px;
+    width: 250px;
+}
+
+/* FIRST LETTER STYLE */
+p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* FOOTER */
+footer {
+    clear: both;
+    border-top: 2px solid black;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* HR LINE */
+hr {
+    border: 1px solid black;
+}
