@@ -10,8 +10,8 @@ body {
     background-image: url("https://shsu.geniussis.com/dynamic/ao3uXtvkmRQYDtL5qQ4JJ0eThAAVzg1gIoH6W2BpU4Q.png");
     background-repeat: repeat;
     background-attachment: fixed;
-    background-position: 0 0;
-    background-size: 450px auto;
+    background-position: top left;
+    background-size: 520px auto;
 }
 
 nav {
