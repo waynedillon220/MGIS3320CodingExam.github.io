@@ -1,19 +1,29 @@
 body {
     width: 95%;
     margin: 15px auto;
-    font-family: Arial, sans-serif;
-    border: 2px solid black;
-    padding: 10px;
-
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #111;
+    border: 2px solid #000;
+    background-color: rgba(255, 255, 255, 0.9);
     background-image: url("https://shsu.geniussis.com/dynamic/ao3uXtvkmRQYDtL5qQ4JJ0eThAAVzg1gIoH6W2BpU4Q.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
+nav {
+    border-bottom: 2px solid #000;
+    margin: 0;
+}
 
 nav ul {
-    list-style: none;
+    margin: 0;
     padding: 0;
-    background-color: #333;
+    list-style: none;
+    background: #2f2f2f;
     overflow: hidden;
 }
 
@@ -23,64 +33,103 @@ nav li {
 
 nav a {
     display: block;
-    padding: 14px 20px;
-    color: white;
+    color: #fff;
     text-decoration: none;
+    padding: 14px 18px;
+    font-size: 18px;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #4a4a4a;
 }
 
+.content-wrapper {
+    overflow: hidden;
+    padding: 20px 15px 10px 15px;
+}
 
 article {
     width: 75%;
     float: left;
-    padding-right: 20px;
-    border-right: 2px solid black;
+    padding-right: 2%;
+    border-right: 2px solid #000;
+    box-sizing: border-box;
 }
-
 
 aside {
     width: 20%;
     float: right;
+    box-sizing: border-box;
     position: fixed;
-    right: 20px;
-    top: 150px;
+    top: 120px;
+    right: 4%;
+    padding-left: 20px;
 }
 
 aside ul {
-    list-style: square;
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+aside li {
+    margin-bottom: 8px;
 }
 
 aside a {
+    color: #0033cc;
     text-decoration: none;
 }
 
-
-.float-img {
-    float: right;
-    margin: 10px;
-    width: 250px;
+aside a:hover {
+    text-decoration: underline;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 1.05rem;
+}
 
 p::first-letter {
-    font-size: 200%;
+    font-size: 2.1rem;
     font-weight: bold;
     font-style: italic;
 }
 
+.float-img {
+    float: right;
+    width: 280px;
+    max-width: 40%;
+    margin: 0 0 12px 18px;
+    border: 1px solid #000;
+}
 
 footer {
     clear: both;
-    border-top: 2px solid black;
-    margin-top: 20px;
+    border-top: 2px solid #000;
     text-align: center;
-    padding-top: 10px;
+    padding: 15px 10px;
+    margin-top: 20px;
 }
 
+footer a {
+    color: #0033cc;
+    text-decoration: none;
+}
 
-hr {
-    border: 1px solid black;
+footer a:hover {
+    text-decoration: underline;
 }
