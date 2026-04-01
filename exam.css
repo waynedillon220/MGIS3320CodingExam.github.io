@@ -6,12 +6,12 @@ body {
     line-height: 1.6;
     color: #111;
     border: 2px solid #000;
-    background-color: #f5f5f5;
+    background-color: rgba(255, 255, 255, 0.9);
     background-image: url("https://shsu.geniussis.com/dynamic/ao3uXtvkmRQYDtL5qQ4JJ0eThAAVzg1gIoH6W2BpU4Q.png");
-    background-repeat: repeat;
     background-attachment: fixed;
-    background-position: top left;
-    background-size: 520px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 nav {
