@@ -69,3 +69,14 @@ table.second thead tr:first-child{
 border-bottom: 2px solid purple;
 
 }
+
+/*-----------------------------------------------------------*/
+table.third {
+border-collapse: collapse;
+border: 2px solid orangered;
+}
+table.third th, table.third td {
+border-right: 2px solid orangered;
+border-left: 2px solid orangered;
+padding: 0.7em;
+}
