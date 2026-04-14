@@ -77,7 +77,8 @@ border-collapse: collapse;
 border: 2px solid orangered;
 }
 
-table.third th, table.third td {
+table.third th, 
+table.third td {
 border-right: 2px solid orangered;
 border-left: 2px solid orangered;
 padding: 0.7em;
