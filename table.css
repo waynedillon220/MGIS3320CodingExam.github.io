@@ -87,7 +87,7 @@ padding: 0.7em;
 table.third tr:first-child th {
 border-top: 2px solid orangered;
 border-bottom: 2px solid orangered;
-background-color: lemonchiffon;
+background-color: limegreen;
 }
 
 table.third tr:nth-child td {
