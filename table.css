@@ -71,15 +71,31 @@ border-bottom: 2px solid purple;
 }
 
 /*-----------------------------------------------------------*/
+
 table.third {
 border-collapse: collapse;
 border: 2px solid orangered;
 }
+
 table.third th, table.third td {
 border-right: 2px solid orangered;
 border-left: 2px solid orangered;
 padding: 0.7em;
 } 
+
 table.third tr:first-child th {
 border-top: 2px solid orangered;
+border-bottom: 2px solid orangered;
+background-color: lemonchiffon;
 }
+
+table.third tr:nth-child td {
+border-bottom: 2px solid orangered;
+background-color: oldlace;
+}
+
+table.third tr:last-child td {
+border-bottom: 2px solid orangered;
+background-color: white;
+}   
+
