@@ -79,4 +79,7 @@ table.third th, table.third td {
 border-right: 2px solid orangered;
 border-left: 2px solid orangered;
 padding: 0.7em;
+} 
+table.third tr:first-child th {
+border-top: 2px solid orangered;
 }
